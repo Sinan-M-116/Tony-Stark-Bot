@@ -419,7 +419,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🤖 Deploy Now', url='https://t.me/SinzzBotz/14')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🕵 any doubts 🕵', url='https://t.me/Sinzz_Botz'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('🎉 channel' url='https://t.me/filmworld890'),
+            InlineKeyboardButton('♻️ update channel', url='https://t.me/SinzzBotz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -433,7 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
             InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('Extra Mods', callback_data='extra'),
+            InlineKeyboardButton('channel', url='https://t.me/filmworld890/1')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
@@ -447,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('🤖 Deploy Now', url='https://t.me/SinzzBotz/14'),
-            InlineKeyboardButton('♥️ Source', url='https://t.me/SinzzBotz/14')
+            InlineKeyboardButton('♥️ Source', url='https://github.com/Sinan-M-116/Tony-Stark-Bot')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
